@@ -31,13 +31,13 @@ class Main {
         persona = "teste"+nome;
       break;
       case 5:
-        persona = ""+nome;
+        persona = "teste"+nome;
       break;
       case 6:
         persona = "teste"+nome;
       break;
     }
-    System.out.println("*SUA HISTORIA COMEÇA EM TAL LUGAR...*");
+    System.out.println("*LUGAR...*");
     int caminho  = 0;
     String opc = " ";
     caminho = entrada.nextInt();
@@ -52,7 +52,7 @@ class Main {
          opc = "teste";
       break;
   }
-  System.out.print( "\033[H\033[2J" );  //isso limpa a tela
+  System.out.print( "\033[H\033[2J" ); 
   System.out.flush(); 
     }else if (start == 2){
       System.out.println("CRÉDITOS \n\n");
